@@ -1,6 +1,10 @@
-
-
 Bustle is for and by women who are moving forward as fast as you are.
+
+<ul>
+  {{#each model as |article|}}
+  <li>{{article.title}} by {{article.author}} on {{article.time}} in category: {{article.category}}</li>
+  {{/each}}
+</ul>
 
 
 {{outlet}}
