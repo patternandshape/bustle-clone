@@ -2,4 +2,5 @@
 <h5>{{article.author}}</h5>
   <p>{{article.time}} , {{article.category}}</p>
   <img src={{article.image}} alt={{article.author}}>
-  <button type=button class="btn btn-info" {{action 'delete'}}>Delete</button>
+  {{update-article article=article update="update"}}
+  <button type=button class="btn btn-danger" {{action 'delete'}}>Delete</button>
