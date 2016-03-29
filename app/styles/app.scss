@@ -1,0 +1,13 @@
+.jumbotron {
+  background: peru;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+a {
+  color: purple;
+  &:hover{
+    color: yellow;
+  }
+}
