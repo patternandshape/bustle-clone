@@ -1,6 +1,8 @@
 
   {{#each model as |article|}}
-    {{article-title article=article}}
+    {{article-title article=article destroyArticle="destroyArticle"}}
   {{/each}}
+
+{{new-article save2="save3"}}
 
 {{outlet}}
