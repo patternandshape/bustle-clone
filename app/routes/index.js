@@ -13,3 +13,6 @@ export default Ember.Route.extend({
     }
   }
 });
+
+
+// update feature moved to routes/article.js
